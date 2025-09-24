@@ -18,7 +18,7 @@ export const useAppStore = defineStore('app', () => {
       console.log(bandeiraSorteada.value)
     }
     const correta = Math.floor(Math.random() * qtBandeiras)
-    BC.value = bandeiraSorteada.value[correta].name
+    BC.value = bandeiraSorteada.value[correta];
     console.log('Bandeira Correta: '+correta)
   }
   return {bandeiraSorteada, sortearBandeiras, BC}
