@@ -8,7 +8,7 @@ import { RouterLink } from 'vue-router'
   </header>
   <body>
     <h2> COMO JOGAR? </h2>
-    <p>Selecione a bandeira que condiz com o nome do pais informado</p>
+    <p>Selecione a bandeira que condiz com o nome do </p>
   </body>
   <main>
     <RouterLink to="flag-app">Iniciar</RouterLink>
